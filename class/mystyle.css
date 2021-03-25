@@ -1,0 +1,44 @@
+h1 {
+    color: #FF0000; 
+    /* hex color requires the pound sign 
+    six gigits starting with red, then green then blue */
+
+}
+/* these three selectors are psudeo selectors*/
+/* colon separates the selctor from it's state*/ 
+
+a:link {
+    color: #00FF00; 
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #8000ff; 
+    background-color: #00eeff;
+}
+
+.lookdifferent :hover {color: #ff00a2; }
+/* above uses an class selector with the psuedo state*/ 
+
+body{
+    background-image: url(../images/logo.jpg);
+    background-size: 200px;
+    background-color: #c9c9ab;
+}
+/* background color for entire page*/
+
+p {
+    width: 400px; 
+    background-color: #ffffff;
+    padding: 20px;
+    /* padding is space between content and edge of box*/
+    margin: 50px;
+    /* space between the outside of the box and the rest of the content*/
+    border: 5px solid #0000ff; 
+    /* this is a combo value ^^*/
+    /* width of your box is content width plus border width x2 
+    plus margin width x2, plus padding width x2 */ 
+}
