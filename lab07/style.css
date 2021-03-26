@@ -17,12 +17,12 @@ body {
 
 nav{
     background-color: #75726b ;
-    color: #a3a1e3;
+    color: #a3a0d9 ;
 
 }
 
 nav a:hover {
-    background-color: #a3a0d9;
+    background-color: #a3a1e3;
 }
 
 nav {
