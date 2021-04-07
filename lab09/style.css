@@ -1,0 +1,33 @@
+h1 {
+    color: #8000ff; 
+}
+
+a:link{
+    color: #3e3166; 
+}
+
+a:visited{
+    color: #c9c9ab; 
+}
+
+
+body {
+    background-color: #d8bddb; 
+}
+
+nav{
+    background-color: #75726b ;
+    color: #7e78dd ;
+
+}
+
+nav a:hover {
+    background-color: #8d8ca1;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
