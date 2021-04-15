@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Accessibilty</title>
+        <style>
+            #skipbutton {
+                position: absolute;
+                /* position on top left of viewport */
+                left: -999px;
+                /* -999 means element if off screen */
+                background-color: white;
+                border: 1px solid black;
+            }
+            /* when the item is tab to */
+            #skipbutton.focus {
+                position: absolute;
+                left: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Unit 10 notes</h1>
+        <!--headings should be hierachal, only one h1 -->
+
+        <img src="../images/logosize.png" alt="Linkedin logo">
+        <!--nothing inside alt quotes means screen reader skips-->
+        <!--don't say image of or picture of-->
+
+        <a id="skipbutton" href="#maincontent">Skip to content</a>
+        <!--anchor link-links lower on page-->
+        <a href="https://www.google.com/" tabindex="3">Google</a>
+        <a href="https://www.amazon.com" tabindex="2">Amazon</a>
+        <a href="https://www.ebay.com" tabindex="1">ebay</a>
+         <!--changes the order of the item selected when you press tab-->
+
+         <a id="maincontent"></a>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </body>
+</html>

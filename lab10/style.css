@@ -1,0 +1,40 @@
+h1 {
+    color: #8000ff; 
+}
+
+a:link{
+    color: #3e3166; 
+}
+
+a:visited{
+    color: #808080; 
+}
+
+
+body {
+    background-color: #d8bddb; 
+}
+
+nav{
+    background-color: #F5F5DC ;
+    color: #7e78dd ;
+
+}
+
+nav a:hover {
+    background-color: #a7b6db;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) { 
+    nav a{width: 100%; display: block;}
+    span {display: none;}
+}
+
+
+
+
