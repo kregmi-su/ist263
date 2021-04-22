@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 notes</title>
+        <script>
+            /* script tag allows us to embed Javascript */
+            /* now we have named our code- Function tells Javacript it has a name */
+            /* curly backets must be around our name code */
+            function Sayhello() {
+                alert("Hello Web Developers");
+                /* onload even in the body tag*/
+            }
+           function Secondfunction () {
+               alert("Second Alert");
+           }
+           function Thirdfunction () {
+               alert ("Third Alert");
+           }
+           /* second and third both run onclick in a tags */
+        </script>
+    </head>
+
+    <body onload="Sayhello();">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <a onclick="Secondfunction();" href="">Second Function Link</a><br>
+        <!-- ^^ this runs the function above when clicked-->
+
+        <a onclick="Thirdfunction();" href="">Third Function Link</a>
+    </body>
+
+
+</html>
