@@ -39,6 +39,6 @@ nav {
  /* float none and clear both helps in mobile view, makes a list instead of overlap */
 
 .logo {float: left; 
-    width: 20%;
+    width: 15%;
  margin-left: 10px;}
 .classclear {clear:both; }  
