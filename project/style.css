@@ -22,8 +22,8 @@ h1 {
 
 nav {
     text-align: right;
-    padding: 50px;
-    font-size: 25px;
+    padding: 40px;
+    font-size: 20px;
     background-color: #add8e6;
 }
 
@@ -32,3 +32,7 @@ nav {
     span {display: none;}
     nav a {padding: 10px 0px}
 }
+
+.logo {float: left;
+    margin-top: 2px; margin-left: 10px;}
+.classclear {clear:both} 
