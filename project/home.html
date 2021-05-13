@@ -29,15 +29,25 @@
         margin-top: 5px; margin-left: 10px;}
         .classclear {clear:both} 
 
+        #rollover {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;}
+
     
     </style>
     <title>Home</title>
     <link rel="stylesheet" href="style.css"> 
     <link rel="shortcut icon" type="images/x-icon" href="favicon.ico">
     <script>
-        function run(){
-            alert("You left this blank");
+        function changeimage () {
+            document.getElementById("rollover").setAttribute("src", "https://kregmi-su.github.io/ist263/project/media/bangle1.jpg");
         }
+        function changeback () {
+            document.getElementById("rollover").setAttribute("src", "https://kregmi-su.github.io/ist263/project/media/bangle3.jpg");
+        }
+
     </script>
 </head>
 
@@ -71,16 +81,8 @@
         </ul>
     </section>  
 
-    <section class="join">
-        <h2>Please join us for offers and updates</h2> 
-        <form action="mailto:kregmi@syr.edu" method="post"> 
-            Name
-            <input type="text" name="name" onblur="run();"><br>
-            Email
-            <input type="text" name="email"><br>
-            <input type="submit">
-        </form>
-    </section>
+    <img src="media/bangle1.jpg" id="rollover" onmouseover="changeimage();" onmouseout="changeback();">
+
 
 <footer>
     <p>By Komal Regmi<br>
