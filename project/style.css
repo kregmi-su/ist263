@@ -21,7 +21,7 @@ h1 {
 }
 
 nav {
-    text-align: right;
+    text-align: center;
     padding: 40px;
     font-size: 20px;
     background-color: #add8e6;
@@ -31,8 +31,14 @@ nav {
     nav a{width: 100%; display: block;}
     span {display: none;}
     nav a {padding: 10px 0px;}
+    .logo, .navbar {
+        float: none;
+        clear: both;
+    }                          
 }
+ /* float none and clear both helps in mobile view, makes a list instead of overlap */
 
-.logo {float: left;
-    margin-top: 2px; margin-left: 10px;}
-.classclear {clear:both;}  
+.logo {float: left; 
+    width: 20%;
+ margin-left: 10px;}
+.classclear {clear:both; }  
