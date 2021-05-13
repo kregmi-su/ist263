@@ -30,7 +30,7 @@ nav {
 @media only screen and (max-width: 600px) { 
     nav a{width: 100%; display: block;}
     span {display: none;}
-    nav a {padding: 10px 0px}
+    nav a {padding: 10px 0px;}
 }
 
 .logo {float: left;
