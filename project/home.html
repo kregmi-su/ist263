@@ -15,22 +15,44 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
+
+        .join {
+            padding: 20px;
+            margin-bottom: 30px;
+            font-size: 20px;
+            background-color: #add8e6;
+            }
+        
+  
+        
+        .logo {float: left;
+        margin-top: 5px; margin-left: 10px;}
+        .classclear {clear:both} 
+
     
     </style>
     <title>Home</title>
     <link rel="stylesheet" href="style.css"> 
     <link rel="shortcut icon" type="images/x-icon" href="favicon.ico">
+    <script>
+        function run(){
+            alert("You left this blank");
+        }
+    </script>
 </head>
 
 <body>
 
-    <img src="media/kblogo.png" class="logo" alt="logo" width="100" height="100"> 
+<div class="nalog">
+    <img src="media/kblogo.png" class="logo" alt="logo" width="150" height="120"> 
     
-    <nav>
+    <nav class="navbar">
         <a href="home.html">Home</a> <span>|</span>
         <a href="clothing.html">Clothing</a> <span>|</span>
         <a href="accessories.html">Accessories</a>
     </nav>
+</div>
+<div class="classclear"></div>
 
     <h1>Welcome Beauties! <br>
     Express and cherish your style.</h1>
@@ -38,16 +60,27 @@
    <a href="https://kregmi-su.github.io/ist263/project/clothing.html"><img src="media/Banner.png" class="banner" alt="feature clothes, woman wearing a golden mixed kurta with shop now button" ></a>
 
        
-    <main class="info">
+    <section class="info">
         <h2>Kashko Boutique - a home for affordable and comfortable clothing.</h2>
         <h3>Contact Information</h3>
         <ul>
             <li>Address: 123 Four Street, Syracuse NY</li>
-            <li>Email: Kashkoboutique@gmail.com</li>
+            <li>Email: <a href="mailtoKashkoboutique@gmail.com">Kashko Boutique</a></li>
             <li>Telephone: 315-000-000 </li>
             <li>Follow us @Kashkoboutique</li>
         </ul>
-    </main>     
+    </section>  
+
+    <section class="join">
+        <h2>Please join us for offers and updates</h2> 
+        <form action="" method="post"> 
+            Name
+            <input type="text" name="name" onblur="run();"><br>
+            Email
+            <input type="text" name="email"><br>
+            <input type="submit">
+        </form>
+    </section>
 
 <footer>
     <p>By Komal Regmi<br>
